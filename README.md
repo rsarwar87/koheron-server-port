@@ -43,4 +43,4 @@ Todo .. works. will add cmake file to compilation
 
 
 ## Procedure to port control and status ip
-Todo .. for now import the cores manually
+Todo .. for now import the cores manually (add the control and status registers to an existing supported device; save the block design as tcl, copy the relavent status and control hierarchy to your design.)
