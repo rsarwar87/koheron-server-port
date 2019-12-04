@@ -19,12 +19,12 @@ make CONFIG=python server
 ```
 mkdir build
 cd build
-make ../ -DCMAKE_TOOLCHAIN_FILE=../toolchain-zynq.cmake 
-make
+cmake ../ -DCMAKE_TOOLCHAIN_FILE=../toolchain-zynq.cmake 
+make -j8
 ```
 
 ## Procedure to compile cpp client
-Todo .. 
+Todo .. works. will add cmake file to compilation
 
 
 ## Procedure to port control and status ip
