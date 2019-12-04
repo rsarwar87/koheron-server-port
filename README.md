@@ -24,6 +24,8 @@ make
 ```
 
 ## Procedure to compile cpp client
+Todo .. 
+
 
 ## Procedure to port control and status ip
-
+Todo .. for now import the cores manually
