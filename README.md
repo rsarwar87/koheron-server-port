@@ -7,6 +7,21 @@ Supports Zynq and ZynqMP
 
 Contains the client side python and cpp drivers
 
+## Requirements
+1. in order to run the python client, one needs to install the koheron python module
+``` 
+ sudo apt install -y g++-5-arm-linux-gnueabihf                                         
+ sudo apt install -y g++-5-aarch64-linux-gnu                                           
+ sudo apt install -y python-pip                                                        
+ sudo apt install -y curl                                                              
+ pip install -r requirements.txt                                        
+ pip install python
+```
+
+## Limitations
+1. does not support koheron welcome webpage for the device
+2. does not support loading of instrument from python test scripts
+
 ## Procedure to compile server
 1. Prepare a config.yml file to the which contains the list of control_registers, status_registers, parametes, drivers and memory tags. The memory tags must correspond to the Address Map on the actual device
 
