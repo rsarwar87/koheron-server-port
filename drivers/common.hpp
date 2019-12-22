@@ -26,6 +26,10 @@ class Common
     , sts(ctx.mm.get<mem::status>())
     {}
 
+    uint64_t get_dna() {
+        return sts.read<reg::dna, uint64_t>();
+    }
+
     void set_led(uint32_t value) {
         ctl.write<reg::led>(value);
     }
@@ -35,7 +39,7 @@ class Common
     }
 
     void init() {
-        ip_on_leds();
+        //ip_on_leds();
     };
 
     std::string get_instrument_config() {
